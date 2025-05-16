@@ -1,4 +1,4 @@
-﻿namespace DeviceInventoryApp
+namespace DeviceInventoryApp
 {
     partial class MainForm
     {
@@ -73,7 +73,7 @@
             listViewDevice.Margin = new Padding(5, 6, 5, 6);
             listViewDevice.MultiSelect = false;
             listViewDevice.Name = "listViewDevice";
-            listViewDevice.Size = new Size(1656, 709);
+            listViewDevice.Size = new Size(1656, 686);
             listViewDevice.TabIndex = 1;
             listViewDevice.UseCompatibleStateImageBehavior = false;
             listViewDevice.View = View.Details;
@@ -193,9 +193,9 @@
             panelDeviceActions.Controls.Add(btnEditDevice);
             panelDeviceActions.Controls.Add(btnDeleteDevice);
             panelDeviceActions.Dock = DockStyle.Bottom;
-            panelDeviceActions.Location = new Point(5, 781);
+            panelDeviceActions.Location = new Point(5, 758);
             panelDeviceActions.Name = "panelDeviceActions";
-            panelDeviceActions.Size = new Size(1656, 27);
+            panelDeviceActions.Size = new Size(1656, 50);
             panelDeviceActions.TabIndex = 3;
             // 
             // btnAddDevice
@@ -206,12 +206,13 @@
             btnAddDevice.FlatStyle = FlatStyle.Flat;
             btnAddDevice.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnAddDevice.ForeColor = Color.White;
-            btnAddDevice.Location = new Point(1363, 3);
+            btnAddDevice.Location = new Point(1371, 3);
             btnAddDevice.Name = "btnAddDevice";
-            btnAddDevice.Size = new Size(90, 21);
+            btnAddDevice.Size = new Size(90, 47);
             btnAddDevice.TabIndex = 2;
             btnAddDevice.Text = "Add";
             btnAddDevice.UseVisualStyleBackColor = false;
+            btnAddDevice.Click += btnAddDevice_Click;
             // 
             // btnEditDevice
             // 
@@ -221,9 +222,9 @@
             btnEditDevice.FlatStyle = FlatStyle.Flat;
             btnEditDevice.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnEditDevice.ForeColor = Color.White;
-            btnEditDevice.Location = new Point(1465, 3);
+            btnEditDevice.Location = new Point(1467, 3);
             btnEditDevice.Name = "btnEditDevice";
-            btnEditDevice.Size = new Size(90, 21);
+            btnEditDevice.Size = new Size(90, 47);
             btnEditDevice.TabIndex = 1;
             btnEditDevice.Text = "Edit";
             btnEditDevice.UseVisualStyleBackColor = false;
@@ -236,9 +237,9 @@
             btnDeleteDevice.FlatStyle = FlatStyle.Flat;
             btnDeleteDevice.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnDeleteDevice.ForeColor = Color.White;
-            btnDeleteDevice.Location = new Point(1566, 3);
+            btnDeleteDevice.Location = new Point(1563, 3);
             btnDeleteDevice.Name = "btnDeleteDevice";
-            btnDeleteDevice.Size = new Size(90, 21);
+            btnDeleteDevice.Size = new Size(90, 44);
             btnDeleteDevice.TabIndex = 0;
             btnDeleteDevice.Text = "Delete";
             btnDeleteDevice.UseVisualStyleBackColor = false;
